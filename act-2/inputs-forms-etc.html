@@ -8,15 +8,40 @@
 </head>
 <body>
 
-    <div>
         <form>
-            <input name="Nombre" type="text">
-            <input name="Apellido" type="text">
-            <input name="Email" type="email">
-            <input name="Contraseña" type="password">
+            <input placeholder="Nombre" name="Nombre" type="text" required>
+            <input placeholder="Apellido" name="Apellido" type="text" required>
+            <input placeholder="Email" name="Email" type="email" required>
+            <input placeholder="Contraseña" name="Contraseña" type="password" required>
 
-            <input type="submit">
+            <input value="Ingresar" type="submit">
         </form>
-    </div>
+
+        <form>
+        <label for="color">Elegí el color</label>
+        <select name="color" id="color">
+            <option value="nar">Naranja</option>
+            <option value="ver">Verde</option>
+            <option value="azul">Azul</option>
+            <option value="rojo">Rojo</option>
+        </select>
+        </form>
+
+        <form>
+        <label for="mañana">Mañana</label>
+            <input id="mañana" type="radio" name="turno">
+
+        <label for="tarde">Tarde</label>
+            <input id="tarde" type="radio" name="turno">
+
+        <label for="noche">Noche</label>
+            <input id="noche" type="radio" name="turno">
+        </form>
+        <br>
+        <a href="tablas.html">Ir a ver tablas</a>
+        <br><br>
+        <label for="img1">Imagen naturaleza <br>
+            <img width="500" src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/tnc_52987642_Full.jpg?crop=0%2C233%2C4000%2C2200&wid=4000&hei=2200&scl=1.0" alt="" id="img1">
+        </label>  
 </body>
 </html>
