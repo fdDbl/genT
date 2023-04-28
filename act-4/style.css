@@ -1,48 +1,73 @@
 body {
-    background-color: #3D5ABD;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #f7ede2;
+   margin: 0;
+   padding: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   box-sizing: border-box;
+   background-color: #3D5A80;
+   color: #f7ede2;
+   text-align: center;
+   margin: auto;
 }
 
-h1 {
-    color: rgb(238, 108, 77);
+h1{
+   color: rgb(238, 108, 77);
 }
- h2 {
-    color: lightblue;
- }
 
- li {
-    color: #f8f9fa;
- }
+h2{
+   color: #E0FBFC;
+}
 
- #bordeado {
-    border: 3px solid white;
- }
+li{
+   color: rgba(255, 255, 255, 0.76);
+}
 
- .aloha {
-    background-color: #293241;
-    color: white;
- }
+#bordeado{
+   border: 3px solid white;
+}
 
- input {
-    border: 2px dashed rgb(238, 108, 77);
- }
+.aloha{
+   background-color: #293241;
+   color: white;
+}
 
- div p {
-    font-size: 150%;
-    color: #98C1D9;
- }
+input {
+   border: 2px dashed rgb(238, 108, 77);
+}
 
- input[type=text]{
-    background-color: lightblue;
- }
+div p{
+   font-size: 150%;
+   color: #98C1D9;
+}
 
- a:visited{
-    color: white;
- }
+input[type=text]{
+   background-color: aqua;
+}
 
- div:nth-of-type(3){
-    background-color: blue;
- }
+a:hover{
+   color: white;
+}
 
- 
+div:nth-of-type(3n) > p{
+   background-color: blue;
+}
+
+div:nth-of-type(3n) > p:nth-child(2n+1){
+   border: 4px solid white;
+}
+
+div:nth-of-type(3n) > p > span{
+   background-color: white;
+}
+
+input:checked{
+   margin-left: 60px;
+}
+
+label{
+   text-transform: uppercase;
+}
+
+#ultimo::first-letter{
+   font: 300%;
+   background-color: orange;
+}
