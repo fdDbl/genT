@@ -1,0 +1,58 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: #4158D0;
+    background-image: linear-gradient(14deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-attachment: fixed;
+    margin: 100px;
+}
+
+h1 {
+    font-weight:800;
+    font-size: 60px;
+}
+
+.divDesafio {
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.233);
+    padding: 25px;
+    border-radius: 15px;
+    margin-right:inherit;
+    margin-left:inherit;
+}
+
+p {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+button {
+    border-color: rgba(240, 248, 255, 0.63);
+    border-style: solid;
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #111736;
+    background-image: linear-gradient(14deg, #182250 0%, #4b1e48 46%, #53411f 100%);
+    color:aliceblue;
+}
+
+#buttonCorrecto {
+    margin-top: 30px;
+}
+
+#imgGifBlink {
+    width:40%;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+
+#imgGifSad {
+    width:20%;
+    margin-top: 50px;
+    border-radius: 15px;
+}
